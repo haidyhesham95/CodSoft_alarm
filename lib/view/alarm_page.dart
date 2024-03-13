@@ -1,8 +1,8 @@
 import 'dart:async';
 
 import 'package:alarm/alarm.dart';
-import 'package:alarm_clock_app/view/notification.dart';
-import 'package:alarm_clock_app/view/real_time.dart';
+import 'package:alarm_clock_app/widgets/notification.dart';
+import 'package:alarm_clock_app/widgets/real_time.dart';
 
 
 import 'package:flutter/material.dart';

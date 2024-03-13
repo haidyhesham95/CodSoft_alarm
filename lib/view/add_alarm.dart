@@ -1,10 +1,10 @@
 import 'package:alarm/alarm.dart';
 import 'package:alarm_clock_app/constant/label.dart';
-import 'package:alarm_clock_app/view/app_bar.dart';
-import 'package:alarm_clock_app/view/label_text.dart';
-import 'package:alarm_clock_app/view/sound.dart';
-import 'package:alarm_clock_app/view/vibration.dart';
-import 'package:alarm_clock_app/view/volume.dart';
+import 'package:alarm_clock_app/widgets/app_bar.dart';
+import 'package:alarm_clock_app/widgets/label_text.dart';
+import 'package:alarm_clock_app/widgets/sound.dart';
+import 'package:alarm_clock_app/widgets/vibration.dart';
+import 'package:alarm_clock_app/widgets/volume.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
