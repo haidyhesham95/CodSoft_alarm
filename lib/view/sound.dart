@@ -14,11 +14,11 @@ class Sound extends StatelessWidget {
         value: value,
         items: const [
           DropdownMenuItem<String>(
-            value: 'assets/bell.wav',
+            value: Assets.bell,
             child: Text('Bell'),
           ),
           DropdownMenuItem<String>(
-            value: 'assets/arabian.wav',
+            value: Assets.arabian,
             child: Text('Arabian'),
           ),
           DropdownMenuItem<String>(

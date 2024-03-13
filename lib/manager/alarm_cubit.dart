@@ -68,7 +68,7 @@ class AlarmCubit extends Cubit<AlarmState> {
       loopAudio = true;
       vibrate = true;
       volume = null;
-      assetAudio = 'assets/arabian.wav';
+      assetAudio = Assets.arabian;
     } else {
       creating = false;
       selectedDateTime = alarmSettings!.dateTime;
