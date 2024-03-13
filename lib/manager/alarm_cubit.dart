@@ -7,22 +7,19 @@ import 'package:intl/intl.dart';
 import 'package:meta/meta.dart';
 
 import '../generated/assets.dart';
-import '../view/add_alarm.dart';
-
-
-
 
 
 part 'alarm_state.dart';
 
 class AlarmCubit extends Cubit<AlarmState> {
   AlarmCubit() : super(AlarmInitial());
+  DateTime selectedDateTime = DateTime.now();
+
 
 
   static AlarmCubit get(context) => BlocProvider.of(context);
 
 
-  DateTime selectedDateTime = DateTime.now();
 
 
   late TextEditingController controller;

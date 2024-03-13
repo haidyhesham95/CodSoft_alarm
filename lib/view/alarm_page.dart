@@ -12,7 +12,6 @@ import 'package:permission_handler/permission_handler.dart';
 import 'package:intl/intl.dart';
 import 'package:flutter_slidable/flutter_slidable.dart';
 
-import '../Model/Model.dart';
 import 'add_alarm.dart';
 import '../constant/label.dart';
 
@@ -26,7 +25,6 @@ class AlarmPage extends StatefulWidget {
 class _AlarmPageState extends State<AlarmPage> {
   late List<AlarmSettings> alarms;
   List<bool> _alarmOnOff = [];
-  List<Model> modelist=[];
   String labelText = AppData.label;
 
 
